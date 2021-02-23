@@ -1,4 +1,3 @@
-// Webflow - accessible dropdown - Ezra Siton
 const ENTER_KEY_CODE = 13;
 const DOWN_ARROW_KEY_CODE = 40;
 const UP_ARROW_KEY_CODE = 38;
