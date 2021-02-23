@@ -22,7 +22,7 @@ $(".w-dropdown-toggle").each(function() {
       console.log("2");
       toggledAriaExpanded(this);
       toggleAccessibilityDropdown(this);
-      $(this).next(".w--open").find(".w-dropdown-link").first().css("background-color", "yellow");
+      $(this).next(".w--open").find(".w-dropdown-link").first().css("outline", "black solid 1px");
     }
     /* IF click on TAB_KEY_CODE + shiftKey & menu not open ==> Open Menu */
     if (e.shiftKey && e.which == TAB_KEY_CODE && !$("div.w-dropdown-toggle").hasClass("w--open")  ) {
